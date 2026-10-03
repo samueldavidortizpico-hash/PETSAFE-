@@ -1,0 +1,37 @@
+package com.so.petsafe.ui.theme
+
+import androidx.compose.ui.graphics.Color
+
+val Purple80 = Color(0xFFD0BCFF)
+val PurpleGrey80 = Color(0xFFCCC2DC)
+val Pink80 = Color(0xFFEFB8C8)
+
+val Purple40 = Color(0xFF6650a4)
+val PurpleGrey40 = Color(0xFF625b71)
+val Pink40 = Color(0xFF7D5260)
+// PetSafe
+val Turquesa = Color(0xFF0D9488)
+val TurquesaOscuro = Color(0xFF0F766E)
+val Verde = Color(0xFF10B981)
+val VerdeOscuro = Color(0xFF047857)
+val Naranja = Color(0xFFF97316)
+val NaranjaOscuro = Color(0xFFC2410C)
+val Ambar = Color(0xFFF59E0B)
+val AmbarOscuro = Color(0xFF92400E)
+val Rojo = Color(0xFFEF4444)
+val RojoEmergencia = Color(0xFFDC2626)
+val RojoOscuro = Color(0xFF991B1B)
+val Morado = Color(0xFF7E22CE)
+val MoradoFondo = Color(0xFFFAF5FF)
+val RojoSuave = Color(0xFFFEF2F2)
+val AmbarSuave = Color(0xFFFFFBEB)
+val TurquesaSuave = Color(0xFFF0FDFA)
+val VerdeSuave = Color(0xFFECFDF5)
+val NaranjaSuave = Color(0xFFFFF7ED)
+val GrisSuave = Color(0xFFF9FAFB)
+val TextoPrincipal = Color(0xFF111827)
+val TextoSecundario = Color(0xFF6B7280)
+val Borde = Color(0xFFE5E7EB)
+val Blanco = Color(0xFFFFFFFF)
+val BlancoTranslucido = Color(0x33FFFFFF)
+val BlancoSuave = Color(0xE6FFFFFF)

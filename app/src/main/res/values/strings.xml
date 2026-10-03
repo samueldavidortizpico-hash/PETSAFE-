@@ -1,0 +1,470 @@
+<resources>
+    <string name="app_name">PetSafe</string>
+
+    <!-- General -->
+    <string name="app_nombre">PetSafe</string>
+    <string name="app_lema">Protegemos juntos a quienes no tienen voz</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="guardar">Guardar</string>
+    <string name="enviar">Enviar</string>
+    <string name="volver">Volver</string>
+    <string name="volver_inicio">Volver al inicio</string>
+    <string name="continuar">Continuar</string>
+    <string name="anterior">Anterior</string>
+    <string name="si">Sí</string>
+    <string name="no">No</string>
+    <string name="no_se_sabe">No se sabe</string>
+    <string name="no_identificado">No identificado</string>
+    <string name="ver_todo">Ver todo</string>
+    <string name="ver_todas">Ver todas</string>
+    <string name="ver_perfil">Ver perfil</string>
+    <string name="sin_resultados">No hay resultados para este filtro.</string>
+    <string name="sin_dato">Sin registrar</string>
+    <string name="sin_nombre">Animal sin nombre</string>
+    <string name="sin_registros">Sin registros</string>
+    <string name="sin_app">No hay una aplicación disponible para esta acción.</string>
+    <string name="proximamente_texto">Esta sección se conectará en la siguiente fase.</string>
+    <string name="etiqueta_obligatoria">%1$s *</string>
+    <string name="formato_punto">%1$s · %2$s</string>
+    <string name="formato_tres">%1$s · %2$s · %3$s</string>
+    <string name="formato_ubicacion">📍 %1$s · %2$s</string>
+    <string name="puntos">%1$d pts</string>
+    <string name="porcentaje">%1$d %%</string>
+    <string name="adjunto_listo">Archivo adjuntado ✓</string>
+
+    <!-- Accesibilidad -->
+    <string name="cd_volver">Volver</string>
+    <string name="cd_buscar">Buscar</string>
+    <string name="cd_completado">Completado</string>
+
+    <!-- Emojis decorativos -->
+    <string name="emoji_huella">🐾</string>
+    <string name="emoji_sirena">🚨</string>
+    <string name="emoji_lupa">🔎</string>
+    <string name="emoji_corazon">❤️</string>
+    <string name="emoji_casa">🏠</string>
+    <string name="emoji_manos">🤝</string>
+    <string name="emoji_alerta">⚠️</string>
+    <string name="emoji_pin">📍</string>
+    <string name="emoji_ayuda">🩺</string>
+    <string name="emoji_chat">💬</string>
+    <string name="emoji_jeringa">💉</string>
+    <string name="emoji_microbio">🦠</string>
+    <string name="emoji_pastilla">💊</string>
+    <string name="emoji_hospital">🏥</string>
+    <string name="emoji_grafica">📊</string>
+    <string name="emoji_perro">🐕</string>
+    <string name="emoji_carro">🚗</string>
+    <string name="emoji_pregunta">❓</string>
+    <string name="emoji_portapapeles">📋</string>
+    <string name="emoji_medalla">🏅</string>
+    <string name="emoji_campana">🔔</string>
+    <string name="emoji_candado">🔒</string>
+    <string name="emoji_escudo">🛡️</string>
+
+    <!-- Navegación -->
+    <string name="nav_inicio">Inicio</string>
+    <string name="nav_comunidad">Comunidad</string>
+    <string name="nav_registrar">Registrar</string>
+    <string name="nav_alertas">Alertas</string>
+    <string name="nav_perfil">Perfil</string>
+
+    <!-- Inicio -->
+    <string name="home_buscar">Buscar animal, propietario o caso…</string>
+    <string name="home_emergencia_titulo">¿Es una emergencia?</string>
+    <string name="home_emergencia_sub">Solicita ayuda rápidamente</string>
+    <string name="home_solicitar_ayuda">Solicitar ayuda</string>
+    <string name="home_acciones">Acciones rápidas</string>
+    <string name="accion_registrar">Registrar animal</string>
+    <string name="accion_reportar_perdido">Reportar perdido</string>
+    <string name="accion_encontrado">Animal encontrado</string>
+    <string name="accion_denunciar">Denunciar maltrato</string>
+    <string name="home_comunidad">Comunidad</string>
+    <string name="home_num_perdidos">12</string>
+    <string name="home_perdidos_activos">Perdidos activos</string>
+    <string name="home_num_adopcion">8</string>
+    <string name="home_en_adopcion">En adopción</string>
+    <string name="home_num_ayuda">3</string>
+    <string name="home_necesitan_ayuda">Necesitan ayuda</string>
+    <string name="home_mis_mascotas">Mis mascotas</string>
+    <string name="home_centro_ayuda">Centro de ayuda</string>
+    <string name="home_centro_ayuda_desc">Primeros auxilios y orientación animal</string>
+
+    <!-- Estados -->
+    <string name="estado_activo">Activo</string>
+    <string name="estado_vacuna_proxima">Vacuna próxima</string>
+    <string name="estado_perdido">Perdido</string>
+    <string name="badge_perdido">PERDIDO</string>
+    <string name="badge_encontrado">ENCONTRADO</string>
+
+    <!-- Comunidad -->
+    <string name="com_titulo">Comunidad PetSafe</string>
+    <string name="com_subtitulo">Juntos protegemos a quienes no tienen voz</string>
+    <string name="com_perdidos">Perdidos y encontrados</string>
+    <string name="com_perdidos_desc">12 reportes activos en la ciudad</string>
+    <string name="com_adopciones">Adopciones</string>
+    <string name="com_adopciones_desc">8 animales esperan un hogar</string>
+    <string name="com_sin_hogar">Animales sin hogar</string>
+    <string name="com_sin_hogar_desc">En seguimiento por el municipio</string>
+    <string name="com_rescates">Rescates</string>
+    <string name="com_rescates_desc">Casos activos de rescate</string>
+    <string name="com_casos_ayuda">Casos que necesitan ayuda</string>
+    <string name="com_casos_ayuda_desc">Animales que requieren apoyo de la comunidad</string>
+    <string name="com_denunciar">Denunciar posible maltrato</string>
+    <string name="com_denunciar_desc">Reporta una situación de forma segura</string>
+    <string name="com_ayudando">Personas que están ayudando</string>
+    <string name="com_reconocimiento">Reconocimiento comunitario</string>
+
+    <!-- Perdidos y encontrados -->
+    <string name="reportar_encontrado">Reportar encontrado</string>
+    <string name="filtro_todos">Todos</string>
+    <string name="filtro_todas">Todas</string>
+    <string name="filtro_perdidos">Perdidos</string>
+    <string name="filtro_encontrados">Encontrados</string>
+    <string name="filtro_perros">Perros</string>
+    <string name="filtro_gatos">Gatos</string>
+    <string name="filtro_atencion">Requieren atención</string>
+    <string name="filtro_salud">Salud</string>
+    <string name="filtro_casos">Casos</string>
+    <string name="filtro_comunidad">Comunidad</string>
+    <string name="ver_detalles_contactar">Ver detalles y contactar</string>
+    <string name="contacto_titulo">Contacto intermediado</string>
+    <string name="contacto_texto">Por seguridad, PetSafe no muestra teléfonos ni correos. Enviaremos tu mensaje a la persona que publicó el reporte y te avisaremos cuando responda.</string>
+    <string name="contacto_enviar">Enviar mensaje</string>
+    <string name="contacto_enviado">Mensaje enviado. Te notificaremos cuando haya respuesta.</string>
+
+    <!-- Reportes -->
+    <string name="reporte_perdido_titulo">Reportar animal perdido</string>
+    <string name="reporte_encontrado_titulo">Reportar animal encontrado</string>
+    <string name="campo_animal">Animal (nombre / especie)</string>
+    <string name="agregar_foto">Agregar fotografía</string>
+    <string name="agregar_fotos">📷 Agregar fotografías</string>
+    <string name="agregar_video">🎥 Agregar video</string>
+    <string name="campo_ultima_ubicacion">Última ubicación conocida</string>
+    <string name="campo_ubicacion_encontrado">Ubicación donde fue encontrado</string>
+    <string name="campo_ubicacion">Ubicación</string>
+    <string name="campo_fecha">Fecha</string>
+    <string name="campo_descripcion">Descripción</string>
+    <string name="campo_contacto">Información de contacto</string>
+    <string name="reporte_privacidad">Tus datos de contacto no se publican: PetSafe intermedia la comunicación.</string>
+    <string name="publicar_reporte">Publicar reporte</string>
+    <string name="reporte_exito">Reporte publicado correctamente</string>
+    <string name="reporte_exito_msg">La comunidad ya puede ver tu reporte. Te avisaremos si alguien tiene información.</string>
+    <string name="ver_reportes">Ver reportes</string>
+
+    <!-- Adopciones -->
+    <string name="adopciones_aviso">Cada adopción pasa por una evaluación para asegurar un hogar responsable.</string>
+    <string name="esterilizado_valor">Esterilizado: %1$s</string>
+    <string name="salud_valor">Salud: %1$s</string>
+    <string name="info_clinica_autorizada">Información clínica autorizada</string>
+    <string name="ninguna_registrada">Ninguna registrada</string>
+    <string name="ninguna_conocida">Ninguna conocida</string>
+    <string name="ninguno_activo">Ninguno activo</string>
+    <string name="quiero_adoptar">Quiero adoptar</string>
+    <string name="adopcion_evaluacion">Al enviar tu solicitud, un equipo la evaluará y te contactará.</string>
+    <string name="solicitud_titulo">Solicitud de adopción</string>
+    <string name="solicitud_para">Solicitud para adoptar a %1$s</string>
+    <string name="campo_nombre">Nombre</string>
+    <string name="campo_edad">Edad</string>
+    <string name="campo_ocupacion">Ocupación</string>
+    <string name="campo_economia">Situación económica</string>
+    <string name="op_estable">Estable</string>
+    <string name="op_variable">Variable</string>
+    <string name="op_prefiero_no">Prefiero no decir</string>
+    <string name="campo_vivienda">Tipo de vivienda</string>
+    <string name="op_casa">Casa</string>
+    <string name="op_apartamento">Apartamento</string>
+    <string name="op_finca">Finca</string>
+    <string name="campo_tenencia">¿Vivienda propia o arrendada?</string>
+    <string name="op_propia">Propia</string>
+    <string name="op_arrendada">Arrendada</string>
+    <string name="campo_permiten">¿Permiten animales?</string>
+    <string name="op_no_aplica">No aplica</string>
+    <string name="campo_personas">Personas que viven en el hogar</string>
+    <string name="campo_ninos">¿Hay niños?</string>
+    <string name="campo_otros_animales">¿Tiene otros animales?</string>
+    <string name="campo_experiencia">Experiencia cuidando animales</string>
+    <string name="campo_tiempo">Tiempo disponible</string>
+    <string name="campo_motivo">Motivo de adopción</string>
+    <string name="confirmo_veraz">Confirmo que la información proporcionada es verdadera</string>
+    <string name="enviar_solicitud">Enviar solicitud</string>
+    <string name="solicitud_enviada">Solicitud enviada para evaluación</string>
+    <string name="solicitud_enviada_msg">Un equipo revisará tu solicitud y te contactará. Este proceso puede tardar algunos días.</string>
+    <string name="ver_mas_animales">Ver más animales</string>
+
+    <!-- Registro -->
+    <string name="sit_pregunta">¿Cuál es la situación del animal?</string>
+    <string name="sit_propietario">Tiene propietario</string>
+    <string name="sit_propietario_desc">Registro completo en 3 pasos</string>
+    <string name="sit_encontrado">Animal encontrado / de calle</string>
+    <string name="sit_encontrado_desc">Registro rápido</string>
+    <string name="sit_perdido">Animal perdido</string>
+    <string name="sit_perdido_desc">Publica un reporte para la comunidad</string>
+    <string name="sit_rescatado">Animal rescatado</string>
+    <string name="sit_rescatado_desc">Registro rápido del rescate</string>
+    <string name="registro_titulo">Registrar animal</string>
+    <string name="paso_de">Paso %1$d de %2$d</string>
+    <string name="paso1_titulo">Datos del animal</string>
+    <string name="paso2_titulo">Situación del animal</string>
+    <string name="paso3_titulo">Datos del responsable</string>
+    <string name="campo_nombre_animal">Nombre</string>
+    <string name="campo_especie">Especie</string>
+    <string name="campo_sexo">Sexo</string>
+    <string name="campo_color">Color</string>
+    <string name="campo_edad_nacimiento">Edad o fecha de nacimiento</string>
+    <string name="campo_peso">Peso (kg)</string>
+    <string name="campo_tiene_propietario">¿Tiene propietario?</string>
+    <string name="campo_tiene_hogar">¿Tiene hogar?</string>
+    <string name="campo_esterilizado">¿Está esterilizado/castrado?</string>
+    <string name="campo_estado_actual">Estado actual</string>
+    <string name="campo_observaciones">Observaciones</string>
+    <string name="campo_nombre_completo">Nombre completo</string>
+    <string name="campo_documento">Documento / identificación</string>
+    <string name="campo_telefono">Teléfono</string>
+    <string name="campo_correo">Correo electrónico</string>
+    <string name="autorizo_datos">Autorizo el tratamiento de mis datos personales</string>
+    <string name="registrar_animal">Registrar animal</string>
+    <string name="duplicado_titulo">Posible duplicado detectado</string>
+    <string name="duplicado_texto">Encontramos animales parecidos ya registrados. Revisa antes de continuar para evitar registros duplicados.</string>
+    <string name="coincidencia_pct">%1$d %% coincidencia</string>
+    <string name="revisar_coincidencia">Revisar coincidencia</string>
+    <string name="es_otro_animal">Es otro animal, continuar</string>
+    <string name="registro_exito">Animal registrado correctamente</string>
+    <string name="registro_exito_msg">Ya puedes ver su perfil y completar su información clínica.</string>
+    <string name="ver_perfil_animal">Ver perfil del animal</string>
+    <string name="agregar_info_clinica">Agregar información clínica</string>
+    <string name="registro_encontrado_titulo">Animal encontrado</string>
+    <string name="registro_simplificado">Registro simplificado. Solo se solicita información básica. El historial clínico podrá ser completado posteriormente por un veterinario autorizado.</string>
+    <string name="foto_obligatoria">Fotografía *</string>
+    <string name="error_foto">La fotografía es obligatoria</string>
+    <string name="campo_fecha_hallazgo">Fecha del hallazgo</string>
+    <string name="campo_raza_descripcion">Raza / descripción</string>
+    <string name="animal_registrado">Animal registrado</string>
+    <string name="animal_registrado_msg">Gracias por ayudar. Un veterinario autorizado podrá completar su historial.</string>
+
+    <string-array name="especies_registro">
+        <item>Perro</item>
+        <item>Gato</item>
+        <item>Otro</item>
+    </string-array>
+    <string-array name="sexos">
+        <item>Macho</item>
+        <item>Hembra</item>
+    </string-array>
+    <string-array name="estados_animal">
+        <item>Con hogar</item>
+        <item>Sin hogar</item>
+        <item>Perdido</item>
+        <item>Encontrado</item>
+        <item>En adopción</item>
+        <item>Rescatado</item>
+    </string-array>
+
+    <!-- Errores -->
+    <string name="error_obligatorio">Este campo es obligatorio</string>
+    <string name="error_numero">Ingresa un número válido</string>
+    <string name="error_mayor_edad">Debes ser mayor de edad</string>
+    <string name="error_documento">Ingresa un documento válido (mínimo 5 dígitos)</string>
+    <string name="error_telefono">Ingresa un teléfono válido (mínimo 7 dígitos)</string>
+    <string name="error_correo">Ingresa un correo válido</string>
+    <string name="error_contrasena">Mínimo %1$d caracteres</string>
+    <string name="error_no_coinciden">Las contraseñas no coinciden</string>
+
+    <!-- Mis animales -->
+    <string name="mis_animales">Mis animales</string>
+    <string name="buscar_animal">Buscar por nombre, raza o chip</string>
+    <string name="perfil_animal">Perfil del animal</string>
+    <string name="dato_peso">Peso</string>
+    <string name="dato_edad">Edad</string>
+    <string name="dato_raza">Raza</string>
+    <string name="dato_sexo">Sexo</string>
+    <string name="dato_salud">Salud</string>
+    <string name="dato_esterilizado">Esterilizado</string>
+    <string name="dato_chip">Chip</string>
+    <string name="dato_responsable">Responsable actual</string>
+    <string name="historial_clinico_mayus">HISTORIAL CLÍNICO</string>
+    <string name="historial_clinico">Historial clínico</string>
+    <string name="historial_de">Historial · %1$s</string>
+    <string name="hist_vacunas">Vacunas</string>
+    <string name="hist_enfermedades">Enfermedades</string>
+    <string name="hist_tratamientos">Tratamientos</string>
+    <string name="hist_alergias">Alergias</string>
+    <string name="hist_casos">Casos clínicos</string>
+    <string name="hist_peso_controles">Peso y controles</string>
+    <string name="ultimos_registros">Últimos registros</string>
+    <string name="agregar_registro_clinico">Agregar registro clínico</string>
+    <string name="agregar_registro">Agregar registro</string>
+    <string name="transferir_responsable">Transferir responsable</string>
+    <string name="marcar_perdido">Marcar como perdido</string>
+    <string name="aviso_perdido_activo">Este animal tiene un reporte de pérdida activo.</string>
+    <string name="verificado_vet">Verificado por veterinario</string>
+    <string name="nfc_titulo">Identificación NFC</string>
+    <string name="nfc_id">ID del collar / microchip</string>
+    <string name="nfc_animal">Animal</string>
+    <string name="nfc_vinculado">Vinculado y activo</string>
+    <string name="nfc_instruccion">Pulsa Escanear y acerca el teléfono al collar.</string>
+    <string name="nfc_acerca">Acerca el teléfono al collar…</string>
+    <string name="nfc_leido">Lectura correcta (simulada)</string>
+    <string name="nfc_escanear">Escanear</string>
+    <string name="responsable_actual">Responsable actual</string>
+    <string name="nuevo_responsable">Datos del nuevo responsable</string>
+    <string name="transferir_aviso">El cambio de responsable no eliminará el historial clínico ni los antecedentes del animal.</string>
+    <string name="solicitar_transferencia">Solicitar transferencia</string>
+    <string name="transferencia_pendiente">Transferencia pendiente</string>
+    <string name="transferencia_pendiente_msg">El nuevo responsable debe aceptar la transferencia. Te avisaremos cuando ocurra.</string>
+    <string name="perdida_instruccion">Indica dónde y cuándo viste a %1$s por última vez.</string>
+    <string name="marcar_como_perdida">Marcar mi mascota como perdida</string>
+    <string name="perdida_activa">%1$s está marcado como perdido. La comunidad ya puede ayudarte.</string>
+    <string name="avistamientos">Avistamientos</string>
+    <string name="marcar_encontrada">Ya la encontré</string>
+
+    <!-- Urgencias -->
+    <string name="urgencias_titulo">Urgencias</string>
+    <string name="urg_pregunta">¿Qué está pasando?</string>
+    <string name="urg_herido">Animal herido</string>
+    <string name="urg_accidente">Accidente</string>
+    <string name="urg_maltrato">Posible maltrato grave</string>
+    <string name="urg_agresivo">Animal agresivo</string>
+    <string name="urg_abandonado">Animal abandonado</string>
+    <string name="urg_otra">Otra emergencia</string>
+    <string name="urg_seguridad">Primero tu seguridad: no te expongas en vías con tráfico ni ante animales agresivos.</string>
+    <string name="solicitar_ayuda">Solicitar ayuda</string>
+    <string name="ayuda_solicitada">Ayuda solicitada</string>
+    <string name="ayuda_canales">Tu solicitud quedó registrada. Si necesitas atención inmediata, usa estos canales:</string>
+    <string name="contactar_whatsapp">Contactar por WhatsApp</string>
+    <string name="linea_123">Línea de emergencias 123</string>
+    <string name="ayuda_disclaimer">Estos son canales de contacto disponibles. La atención depende del organismo correspondiente.</string>
+
+    <!-- Denuncias -->
+    <string name="denuncia_titulo">Reportar posible maltrato</string>
+    <string name="denuncia_presuncion">PetSafe registra una presunción; no se afirma que haya habido maltrato.</string>
+    <string name="campo_tipo_situacion">Tipo de situación</string>
+    <string name="campo_animal_involucrado">Animal involucrado</string>
+    <string name="campo_datos_responsable">Datos del propietario/responsable (si se conocen)</string>
+    <string name="denuncia_nivel_admin">El nivel del caso lo asigna un administrador después de revisarlo.</string>
+    <string name="enviar_reporte">Enviar reporte</string>
+    <string name="reporte_recibido">Reporte recibido</string>
+    <string name="caso_sera_revisado">El caso será revisado.</string>
+    <string name="ver_seguimiento">Ver seguimiento del caso</string>
+    <string name="seguimiento_titulo">Seguimiento del caso</string>
+    <string name="caso_numero">Caso #2026-0847</string>
+    <string name="en_verificacion">En verificación</string>
+    <string name="caso_animal">Desconocido · Perro · Barrio Centro</string>
+    <string name="caso_tipo_etiqueta">Tipo</string>
+    <string name="caso_tipo">Posible negligencia / abandono</string>
+    <string name="caso_reportado_por_etiqueta">Reportado por</string>
+    <string name="caso_reportado_por">Ciudadano anónimo</string>
+    <string name="caso_nivel_etiqueta">Nivel</string>
+    <string name="caso_nivel">Pendiente de clasificación administrativa</string>
+    <string name="linea_tiempo">Línea de tiempo</string>
+    <string name="agregar_evidencia">Agregar evidencia</string>
+    <string name="agregar_observacion">Agregar observación</string>
+    <string name="evidencias_agregadas">Evidencias agregadas: %1$d</string>
+
+    <string-array name="tipos_situacion">
+        <item>Abandono</item>
+        <item>Negligencia</item>
+        <item>Posible maltrato físico</item>
+        <item>Condiciones inadecuadas</item>
+        <item>Otra</item>
+    </string-array>
+
+    <!-- Alertas -->
+    <string name="alertas_sub">Novedades sobre tus animales y tu comunidad</string>
+
+    <!-- Ayuda y chatbot -->
+    <string name="ayuda_no_reemplaza">Esta información es orientación general y no reemplaza la atención de un veterinario.</string>
+    <string name="guias">Guías de orientación</string>
+    <string name="guia">Guía</string>
+    <string name="hablar_asistente">Hablar con el asistente</string>
+    <string name="chatbot_titulo">Asistente PetSafe</string>
+    <string name="chatbot_desc">Atención inicial: te orientamos paso a paso</string>
+    <string name="chatbot_saludo">Hola 👋 Soy el asistente de PetSafe. Cuéntame qué está pasando y trataré de orientarte.</string>
+    <string name="hablar_persona">Hablar con una persona</string>
+    <string name="escribe_mensaje">Escribe tu mensaje…</string>
+    <string name="ir_seccion">Ir a esta sección →</string>
+
+    <string-array name="chatbot_rapidos">
+        <item>Encontré un perro</item>
+        <item>Mi mascota está perdida</item>
+        <item>Necesito ayuda urgente</item>
+        <item>Quiero denunciar</item>
+        <item>Quiero adoptar</item>
+    </string-array>
+
+    <!-- Perfil -->
+    <string name="unete_titulo">Únete a PetSafe</string>
+    <string name="unete_texto">No necesitas una cuenta para consultar PetSafe. Inicia sesión o crea una cuenta para registrar animales y gestionar tus actividades.</string>
+    <string name="iniciar_sesion">Iniciar sesión</string>
+    <string name="crear_cuenta">Crear cuenta</string>
+    <string name="mi_perfil">Mi perfil</string>
+    <string name="iniciales_usuario">CM</string>
+    <string name="editar_perfil">Editar perfil</string>
+    <string name="mi_actividad">Mi actividad</string>
+    <string name="act_animales">Mis animales</string>
+    <string name="act_animales_desc">3 registrados</string>
+    <string name="act_solicitudes">Mis solicitudes de adopción</string>
+    <string name="act_solicitudes_desc">1 en evaluación</string>
+    <string name="act_reportes">Mis reportes</string>
+    <string name="act_reportes_desc">2 activos</string>
+    <string name="act_casos">Mis casos</string>
+    <string name="act_casos_desc">1 en seguimiento</string>
+    <string name="act_comunidad">Actividad comunitaria</string>
+    <string name="act_comunidad_desc">340 puntos · Rescatadora</string>
+    <string name="configuracion">Configuración</string>
+    <string name="cfg_notificaciones">Notificaciones</string>
+    <string name="cfg_privacidad">Privacidad</string>
+    <string name="cfg_seguridad">Seguridad</string>
+    <string name="cfg_ayuda">Ayuda</string>
+    <string name="otros_accesos">Otros accesos</string>
+    <string name="modo_veterinario">Modo veterinario</string>
+    <string name="modo_veterinario_desc">Historias clínicas verificadas</string>
+    <string name="indicadores_municipales">Indicadores municipales</string>
+    <string name="indicadores_desc">Cobertura, pérdidas y recuperación</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="bienvenida">Bienvenido de nuevo</string>
+    <string name="campo_contrasena">Contraseña</string>
+    <string name="campo_confirmar_contrasena">Confirmar contraseña</string>
+    <string name="olvide_contrasena">Olvidé mi contraseña</string>
+    <string name="sin_cuenta">¿No tienes cuenta?</string>
+    <string name="acepto_terminos">Acepto los términos y el tratamiento de mis datos personales</string>
+
+    <!-- Veterinario -->
+    <string name="vet_nombre">Dr. Alejandra Gómez</string>
+    <string name="vet_clinica">Clínica Vet Plus</string>
+    <string name="vet_buscar">Buscar por nombre, ID o chip</string>
+    <string name="vet_num_pacientes">14</string>
+    <string name="vet_pacientes">Pacientes</string>
+    <string name="vet_num_hoy">3</string>
+    <string name="vet_hoy">Hoy</string>
+    <string name="vet_num_pendientes">2</string>
+    <string name="vet_pendientes">Pendientes</string>
+    <string name="vet_recientes">Pacientes recientes</string>
+    <string name="nuevo_registro_clinico">Nuevo registro clínico</string>
+    <string name="vet_edad_estimada">Edad estimada</string>
+    <string name="vet_condicion">Condición general</string>
+    <string name="vet_vacunas">Vacunas aplicadas</string>
+    <string name="vet_diagnosticos">Diagnósticos</string>
+    <string name="vet_medicamentos">Medicamentos</string>
+    <string name="vet_alergias">Alergias detectadas</string>
+    <string name="vet_procedimientos">Procedimientos</string>
+    <string name="vet_esterilizacion">Esterilización</string>
+    <string name="aviso_verificado">Quedará marcado como Verificado por veterinario.</string>
+    <string name="aviso_pendiente_verificacion">Quedará pendiente de verificación por un veterinario autorizado.</string>
+    <string name="guardar_registro">Guardar registro</string>
+    <string name="registro_guardado">Registro clínico guardado</string>
+
+    <!-- Municipio -->
+    <string name="muni_periodo">Municipio · Agosto 2026</string>
+    <string name="muni_total">10.247</string>
+    <string name="muni_registrados">animales registrados</string>
+    <string name="muni_cobertura">Cobertura antirrábica</string>
+    <string name="muni_vigente">Vigente</string>
+    <string name="muni_vence_30">Vence en 30 días</string>
+    <string name="muni_vencida">Vencida</string>
+    <string name="muni_dias">4.8</string>
+    <string name="muni_recuperacion">días promedio de recuperación</string>
+    <string name="muni_por_zona">Pérdidas por zona</string>
+</resources>
